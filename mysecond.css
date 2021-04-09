@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.Header{
+    background-color: rgb(148, 159, 167);
+    display: flex;
+    align-items: center;
+    padding: 10;
+}
+.Header img{
+    width: 80px;
+    height: 80px;
+}
+.Header .space{
+    padding-left: 50px;
+    flex: 1;
+}
+.Header ul{
+    
+    flex: 0.3;
+    list-style-type: none;
+    display: flex; 
+}
+.Header ul li{
+    padding-right: 15px;
+}
+
+
+.Dps{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 233, 233);
+    
+}
+.Dps h4{
+    padding-left: 300px;
+}
+
+.Search{
+    display: flex;
+margin-left: 20px;
+align-items: center;
+}
+.Search input{
+    margin-right: 10px;
+    height: 38px;
+    width: 500px;
+}
+.Search h4{
+    height: 25px;
+    padding: 7px;
+    border: 1px solid darkblue;
+}
+
+.Picture3{
+    display: flex;
+    margin-bottom: 5px;
+    border: 2px double rgb(141, 151, 165);
+}
+
+.Picture3 img{
+    width: 300px;
+    height: 200px;
+    margin-top: 5px
+    margin-left: 20px;
+}
+
+
+.Picture3 .pic1 h2{
+    margin-left: 20px;
+    
+}
+.Picture3 .pizza img{
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.Picture3 .pizza h2{
+    margin-left: 20px;
+    
+}
+.Picture3 .chinese img{
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.Picture3 .chinese h2{
+    margin-left: 20px;
+    
+}
+.Picture3{
+    display: flex;
+}
+
+.Picture3 img{
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.Footer{
+    background-color: rgb(11, 90, 105);
+    padding: 30px;
+    text-align: center;
+}
+
